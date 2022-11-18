@@ -7,7 +7,7 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "test": "jest"
+    "test": "jest --watchAll"
   },
   "dependencies": {
     "@hookform/resolvers": "^2.9.10",
@@ -29,12 +29,15 @@
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@react-native-community/eslint-config": "^3.2.0",
+    "@testing-library/react-native": "^11.5.0",
     "eslint": "^8.27.0",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-react": "^7.31.10"
+    "eslint-plugin-react": "^7.31.10",
+    "nock": "^13.2.9",
+    "react-test-renderer": "^18.2.0"
   },
   "private": true,
   "jest": {
-    "preset": "jest-expo"
+    "preset": "react-native"
   }
 }

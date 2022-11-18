@@ -1,10 +1,12 @@
 import React from "react";
-import { Button, Text, View } from "react-native";
+import { View } from "react-native";
 
-export const HomeScreen = ({ navigation }) => {
+import { Input } from "../components/Input";
+
+export const HomeScreen = () => {
   return (
     <View>
-      <Text>HomeScreen</Text>
+      <Input />
     </View>
   );
 };
